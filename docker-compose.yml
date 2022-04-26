@@ -1,0 +1,19 @@
+version: '3.7'
+#networks:
+#  rionet:
+#    external: true
+
+services:
+  frontend:
+    container_name : frontend
+    image: rioprayogo/dumbflix-fe:v1
+    stdin_open: true
+    ports:
+      - "3000:3000"
+
+  frontendbalance:
+    container_name : frontendbalance
+    stdin_open: true    
+    image: rioprayogo/dumbflix-fe:v1
+    ports:
+      - "3001:3001"
