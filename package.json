@@ -14,6 +14,7 @@
 		"dayjs": "^1.8.28",
 		"moment": "^2.26.0",
 		"nuka-carousel": "^4.7.0",
+		"pm2": "^5.3.1",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-loading-skeleton": "^2.1.1",
@@ -25,7 +26,7 @@
 		"redux-thunk": "^2.3.0"
 	},
 	"scripts": {
-		"jemping": "react-scripts start",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
